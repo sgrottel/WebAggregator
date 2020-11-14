@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30621.155
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "App\App.csproj", "{736314EA-B2AF-4E3A-B4F8-D73673B1D32B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "App", "App\App.csproj", "{736314EA-B2AF-4E3A-B4F8-D73673B1D32B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataModel", "DataModel\DataModel.csproj", "{EF085999-F1B7-4774-8942-26630C28E57A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{736314EA-B2AF-4E3A-B4F8-D73673B1D32B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{736314EA-B2AF-4E3A-B4F8-D73673B1D32B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{736314EA-B2AF-4E3A-B4F8-D73673B1D32B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF085999-F1B7-4774-8942-26630C28E57A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF085999-F1B7-4774-8942-26630C28E57A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF085999-F1B7-4774-8942-26630C28E57A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF085999-F1B7-4774-8942-26630C28E57A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
