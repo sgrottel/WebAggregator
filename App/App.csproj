@@ -6,7 +6,7 @@
     <UseWPF>true</UseWPF>
     <AssemblyName>WebAggregator</AssemblyName>
     <RootNamespace>SG.WebAggregator</RootNamespace>
-    <ApplicationIcon>webaggregator.ico</ApplicationIcon>
+    <ApplicationIcon></ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
