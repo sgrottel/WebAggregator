@@ -32,9 +32,8 @@ namespace WebAggregator.Data
 
 		/// <summary>
 		/// Graphical favicon of the feed; At least 16x16 px in size. Additional sizes possible.
-		/// TODO: clarify format
 		/// </summary>
-		public object Icon { get; set; }
+		public FeedIcon Icon { get; set; }
 
 		/// <summary>
 		/// Type id of the aggregator to use to fill the feed

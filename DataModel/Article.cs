@@ -28,9 +28,9 @@ namespace WebAggregator.Data
 		public DateTime PublicationTime { get; set; }
 
 		/// <summary>
-		/// Formatted article content (HTML or MD or something)
+		/// Article content
 		/// </summary>
-		public string Content { get; set; }
+		public ArticleContent Content { get; set; }
 
 	}
 
