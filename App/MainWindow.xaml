@@ -9,6 +9,12 @@
 		SourceInitialized="Window_SourceInitialized"
 		Closing="Window_Closing"
 		SizeChanged="Window_SizeChanged">
+	<Window.Background>
+		<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+			<GradientStop Color="{DynamicResource DarkColor2}"/>
+			<GradientStop Color="{DynamicResource DarkColor}" Offset="1"/>
+		</LinearGradientBrush>
+	</Window.Background>
 	<Grid>
 		<Grid.ColumnDefinitions>
 			<ColumnDefinition x:Name="StructureColumn" Width="200" MinWidth="100" />
@@ -18,7 +24,11 @@
 
 		<TextBlock FontSize="55" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Left side</TextBlock>
 
-		<GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch" />
+		<GridSplitter Grid.Column="1" Width="5" HorizontalAlignment="Stretch">
+			<GridSplitter.Background>
+				<SolidColorBrush Color="{DynamicResource DarkColor}"/>
+			</GridSplitter.Background>
+		</GridSplitter>
 
 		<TextBlock Grid.Column="2" FontSize="55" HorizontalAlignment="Center" VerticalAlignment="Center" TextWrapping="Wrap">Right side</TextBlock>
 

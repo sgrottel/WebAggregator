@@ -4,6 +4,8 @@
 			 xmlns:local="clr-namespace:SG.WebAggregator"
 			 StartupUri="MainWindow.xaml">
 	<Application.Resources>
-		 
+		<SolidColorBrush x:Key="MidColorBackground" Color="#FF4B4B87"/>
+		<Color x:Key="DarkColor">#FF322D55</Color>
+		<Color x:Key="DarkColor2">#FF1E1928</Color>
 	</Application.Resources>
 </Application>
